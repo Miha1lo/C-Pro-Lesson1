@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\VISUALSTUDIOPROJECTS\C++PRO_HILLEL\LESSON-01 I C++PRO\BUILD\CMAKEFILES\62B7D62FFD7A98191A7D4E69D3504ADD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro" "-BD:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/MathLib.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

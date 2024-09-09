@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\VISUALSTUDIOPROJECTS\C++PRO_HILLEL\LESSON-01 I C++PRO\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro" "-BD:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build" --check-stamp-file "D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

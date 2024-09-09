@@ -1,0 +1,4 @@
+D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/CMakeFiles/ZERO_CHECK.dir
+D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/mathfuncs/CMakeFiles/MathFuncs.dir
+D:/Documents/VisualStudioProjects/C++Pro_Hillel/Lesson-01 I C++Pro/build/src/CMakeFiles/main_app.dir
